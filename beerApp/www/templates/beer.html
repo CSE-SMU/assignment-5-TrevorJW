@@ -1,0 +1,14 @@
+<ion-view view-title="{{beer.name}}">
+  <ion-content>
+    <h1>{{beer.name}}</h1>
+     <ul>
+    	<li>Your beer is this kind of beer: {{beer.style.category.name}}</li>
+    	<li>Your beer has this ABV: {{beer.abv}}%</li>
+    	<li>Is your beer organic?: {{beer.isOrganic}}</li>
+    	<li>The IBU of your beer is: {{beer.ibu}}</li>
+		<li>Your beer is made in this year {{beer.year}}</li>
+
+	</ul>
+    <img src={{beer.labels.large}} alt="IMAGE NOT AVAILABLE" height="40" width="40" align="middle">
+  </ion-content>
+</ion-view>

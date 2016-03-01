@@ -1,0 +1,43 @@
+<ion-view view-title="Beer Finder">
+  <ion-content>
+    <div class="list list-inset" >
+  		<div>
+		<label class="item item-input">
+    	<i class="icon ion-search placeholder-icon"></i>
+		<span class ="input-label"> Beer Name: </span>
+    		<input type="text" placeholder="Filter By Name:" ng-model ="form.name">
+  		</label>
+		</div>
+		<div>
+  		<label class="item item-input">
+    	<i class="icon ion-search placeholder-icon"></i>
+		<span class ="input-label"> ABV: </span>
+    		<input type="text" placeholder="Filter By ABV: " ng-model ="form.abv">
+  		</label>
+		</div>
+		<div>
+  		<label class = "item item-input">
+  		<i class="icon ion-search placeholder-icon"></i>
+		<span class ="input-label"> IBU: </span>
+    		<input type="text" placeholder="Filter by IBU: " ng-model ="form.ibu">
+  		</label>
+		</div>
+		<div>
+  		<label class="item item-input">
+    	<i class="icon ion-search placeholder-icon"></i>
+		<span class ="input-label"> Organic: </span>
+    		<input type="text" placeholder="Filter By Organic (Y/N)" ng-model ="form.isOrganic">
+  		</label>
+		</div>
+		<div>
+  		<label class="item item-input">
+    	<i class="icon ion-search placeholder-icon"></i>
+		<span class ="input-label"> Year: </span>
+    		<input type="text" placeholder="Filter By Year" ng-model ="form.year">
+  		</label>
+		</div>
+	</div>
+  </ion-content>
+  <button ng-click = "search()"> Search </button>
+  </div>
+</ion-view>		
